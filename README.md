@@ -26,11 +26,11 @@ The objective of the application is to allow from forms to add new options and m
 
 Below are some reference images:
 
-[Image1](https://i.imgur.com/scDOpwx.png) <br>
-[Image2](https://i.imgur.com/7XV6cwt.png) <br>
-[Image3](https://i.imgur.com/pqlZIIz.png) <br>
-[Image4](https://i.imgur.com/N10vUQL.png) <br>
-[Image5](https://i.imgur.com/j9CjmVg.png)
+[](https://i.imgur.com/scDOpwx.png) <br>
+[](https://i.imgur.com/7XV6cwt.png) <br>
+[](https://i.imgur.com/pqlZIIz.png) <br>
+[](https://i.imgur.com/N10vUQL.png) <br>
+[](https://i.imgur.com/j9CjmVg.png)
 
 ## Tools 🛠️
 
