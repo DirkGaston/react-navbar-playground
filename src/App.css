@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Bebas Neue"; /*Can be any text*/
+  src: local("BebasNeue"),
+    url("./assets/fonts/Bebas Neue Pro Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Bebas Neue Bold"; /*Can be any text*/
+  src: local("BebasNeueBold"),
+    url("./assets/fonts/Bebas Neue Pro Bold.otf") format("opentype");
+}
