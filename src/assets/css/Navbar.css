@@ -1,0 +1,12 @@
+.navbar-custom {
+  display: flex;
+  align-items: center;
+}
+
+.menu-items {
+  font-size: 40px;
+}
+
+.menu-items.active {
+  color: red;
+}

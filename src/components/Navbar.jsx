@@ -1,5 +1,6 @@
 import { useState, useEffect, useContext } from "react";
-import { Link } from "react-router-dom";
+import { useParams, NavLink } from "react-router-dom";
+import "../assets/css/Navbar.css";
 
 import Context from "../context/Context";
 
@@ -9,31 +10,23 @@ export default function Navbar() {
   const navbarStylesBackground = context.navbarStyles.background;
   const navbarStylesText = context.navbarStyles.text;
 
-  const [activeOption, setActiveOption] = useState(navbarOptions[0]);
-
-  useEffect(() => {
-    const currentPath = window.location.pathname;
-    const activeOption = navbarOptions.find(
-      (option) => option.route === currentPath
-    );
-    setActiveOption(activeOption);
-  }, [navbarOptions]);
-
   return (
-    <nav className="w-full h-24"
+    <nav
+      className="w-full h-24 navbar-custom"
       style={{
         background: navbarStylesBackground,
         color: navbarStylesText,
       }}
     >
       {navbarOptions.map((option) => (
-        <Link
+        <NavLink
           key={option.route}
           to={option.route}
-          className={option === activeOption ? "active" : ""}
+          className="menu-items mx-4"
+          activeClassName="active"
         >
           {option.title}
-        </Link>
+        </NavLink>
       ))}
     </nav>
   );

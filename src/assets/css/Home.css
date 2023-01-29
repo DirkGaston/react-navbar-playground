@@ -1,0 +1,16 @@
+.title1 {
+  font-size: 48px;
+}
+
+.title2 {
+  font-size: 56px;
+}
+
+.inputContainer {
+  width: 600px;
+  margin-top: 50px;
+}
+
+.pathSpan {
+  color: red;
+}
